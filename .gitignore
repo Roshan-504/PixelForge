@@ -1,0 +1,39 @@
+# Node Modules
+node_modules/
+**/node_modules/
+
+# Environment Variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Build artifacts
+build/
+dist/
+.parcel-cache/
+.next/
+out/
+.cache/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# Multer upload directory (if you're storing files locally)
+server/uploads/ # Adjust path if your upload directory is different
