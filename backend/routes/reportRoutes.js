@@ -1,7 +1,7 @@
 import express from 'express';
 import Project from '../models/Project.js';
 import { authenticate, authorizeRoles } from '../middlewares/auth.js';
-import DailyReport from '../models/dailyReport.js';
+import DailyReport from '../models/Report.js';
 
 const router = express.Router();
 
