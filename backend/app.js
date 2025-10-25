@@ -12,7 +12,7 @@ import userRoutes from './routes/userRoutes.js';
 import projectRoutes from './routes/projectRoutes.js';
 import taskRoutes from './routes/taskRoutes.js';
 
-import DailyReportRoutes from './routes/DailyReportRoutes.js';
+import reportRoutes from './routes/reportRoutes.js';
 
 
 dotenv.config();
@@ -38,7 +38,7 @@ app.use('/api/auth', authRoutes);
 app.use('/api/admin', userRoutes);
 app.use('/api', projectRoutes);
 app.use('/api', taskRoutes);
-app.use('/api', DailyReportRoutes);
+app.use('/api', reportRoutes);
 
 // Server - Use the HTTP server instead of Express app
 const PORT = process.env.PORT || 3000;
