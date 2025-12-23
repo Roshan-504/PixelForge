@@ -125,6 +125,8 @@ Use the following credentials to explore the system's functionalities and role-b
 
 ### 📁 Project Details
 ![Project Details](./screenshots/Project_Desc.png)
+![Project Daily Report](./screenshots/daily_report.png)
+![Project Chat](./screenshots/chat.png)
 
 ### 📤 Document Upload
 ![Document Upload](./screenshots/Add_Doc.png)
