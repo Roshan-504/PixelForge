@@ -43,9 +43,9 @@ app.use('/api', reportRoutes);
 // Server - Use the HTTP server instead of Express app
 const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
-  console.log(`🚀 Server running on port ${PORT}`);
-  console.log(`🔌 Socket.io server is ready`);
-  console.log(`🌐 Frontend URL: ${process.env.FRONTEND_URL || 'http://localhost:5173'}`);
+  console.log(`Server running on port ${PORT}`);
+  console.log(` Socket.io server is ready`);
+  console.log(`Frontend URL: ${process.env.FRONTEND_URL || 'http://localhost:5173'}`);
 });
 
 export { server, io };

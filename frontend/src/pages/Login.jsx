@@ -36,7 +36,7 @@ const Login = () => {
       <div className="max-w-md w-full space-y-8 bg-white p-10 rounded-xl shadow-2xl border border-gray-100 transform transition-all duration-300 ease-in-out">
         <div className="text-center">
           <h1 className="text-4xl font-extrabold text-gray-900 tracking-tight">
-            Welcome to <span className="text-indigo-600">PixelForge Nexus</span>
+            Welcome to <span className="text-indigo-600">ProManager</span>
           </h1>
           <p className="mt-4 text-base text-gray-600">
             Sign in to your account to continue
@@ -54,7 +54,9 @@ const Login = () => {
         <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
           <div className="space-y-4">
             <div>
-              <label htmlFor="email" className="sr-only">Email address</label>
+              <label htmlFor="email" className="sr-only">
+                Email address
+              </label>
               <div className="relative">
                 <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
                   <Mail className="h-5 w-5 text-gray-400" aria-hidden="true" />
@@ -74,7 +76,9 @@ const Login = () => {
             </div>
 
             <div>
-              <label htmlFor="password" className="sr-only">Password</label>
+              <label htmlFor="password" className="sr-only">
+                Password
+              </label>
               <div className="relative">
                 <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
                   <Lock className="h-5 w-5 text-gray-400" aria-hidden="true" />
@@ -99,7 +103,7 @@ const Login = () => {
               type="submit"
               disabled={isLoading}
               className={`group relative w-full flex justify-center items-center py-3 px-4 border border-transparent text-base font-semibold rounded-lg text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition duration-300 ease-in-out transform hover:scale-105 ${
-                isLoading ? 'opacity-75 cursor-not-allowed' : ''
+                isLoading ? "opacity-75 cursor-not-allowed" : ""
               }`}
             >
               {isLoading ? (
@@ -108,7 +112,7 @@ const Login = () => {
                   Signing in...
                 </>
               ) : (
-                'Sign in'
+                "Sign in"
               )}
             </button>
           </div>

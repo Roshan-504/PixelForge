@@ -1,8 +1,8 @@
-# PixelForge Nexus - Secure Project Management System
+# ProManager - Secure Project Management System
 
 ## Overview
 
-"PixelForge Nexus" is a secure, role-based project management platform designed for creative teams, particularly within the game development industry. It streamlines project, team, and digital asset management, emphasizing robust security and granular access control. This system showcases a "secure-by-design" approach, integrating authentication, authorization, and secure data handling from its foundational architecture.
+"ProManager" is a secure, role-based project management platform designed for creative teams, particularly within the game development industry. It streamlines project, team, and digital asset management, emphasizing robust security and granular access control. This system showcases a "secure-by-design" approach, integrating authentication, authorization, and secure data handling from its foundational architecture.
 
 
 ## Features
